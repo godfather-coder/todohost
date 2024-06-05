@@ -1,0 +1,275 @@
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  text-align: center;
+  margin-top: 5px;
+}
+
+.pi{
+  display: flex;
+  right: 48%;
+  bottom:3px;
+  margin:0px;
+  color:white;
+  font-size:20px;
+  margin-left: 20px;
+  margin-top: 10px;
+  padding: 0px;
+  color: #6c6ce0;
+}
+
+button {
+  cursor: pointer;
+}
+
+h3{
+  margin: 0px;
+  position: relative;
+  left: 10px;
+  margin-bottom: 10px;
+  font-size: 22px;
+}
+
+textarea{
+  padding: 14px 32px 14px 16px;
+  border-radius: 4px 0 0 4px;
+  border: 2px solid #5d0cff;
+  position: relative;
+  top: 10px;
+  outline: none;
+  width: 320px;
+  background: transparent;
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+h4{
+  left:20%;
+  position: relative;
+  left: 10px;
+  margin: 0%;
+  margin-top: 10px;
+}
+
+.desc{
+  position: relative;
+  right: 0px;
+  padding: 0%;
+}
+
+.todo-row{
+  border: 2px solid;
+  margin: 5px;
+  padding: 0%;
+  width: 95%;
+  height: auto;
+  min-height: 100px;
+  border-radius:10px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  position: relative;
+  height: 98%;
+  left: 2%;
+  bottom: 10px;
+  display: flex;
+  background: linear-gradient(
+    90deg,
+    rgb(158, 209, 30) 0%,
+    rgb(216, 8, 8) 100%
+  );
+  
+}
+.todo-row:nth-child(4n + 1) {
+  background: linear-gradient(
+    90deg,
+    rgb(81, 6, 231) 0%,
+    rgb(155, 76, 169) 100%
+  );
+}
+
+.todo-row:nth-child(4n + 2) {
+  background: linear-gradient(
+    90deg,
+    #ffd89b 0%,
+    #19547b 100%
+  );
+}
+
+.todo-row:nth-child(4n + 3) {
+  background: linear-gradient(
+    90deg,
+    #43cea2  0%,
+    #185a9d 100%
+  );
+}
+
+.btn {
+  padding: 16px;
+  border: none;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+  outline: none;
+  background: linear-gradient(
+    90deg,
+    rgba(93, 12, 255, 1) 0%,
+    rgba(155, 0, 250, 1) 100%
+  );
+  color: #fff;
+  text-transform: capitalize;
+}
+.container{
+  background-color: black;
+  justify-content: center;
+  position: relative;
+  width: 50%;
+  left: 25%;
+  min-height: 110px;
+  border-radius: 20px;
+}
+.containerlist{
+  justify-content: center;
+  position: relative;
+  width: 50%;
+  bottom: 30px;
+  left:25%;
+}
+
+.faw{
+  font-size: 20px;
+  cursor: pointer;
+  position: absolute;
+  width:5%;
+  right:1%;
+}
+.btn-clear{
+  padding: 16px;
+  border: none;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+  outline: none;
+  background: linear-gradient(
+    90deg,
+    rgba(93, 12, 255, 1) 0%,
+    rgba(155, 0, 250, 1) 100%
+  );
+  color: #fff;
+  text-transform: capitalize;
+  position:relative; 
+  right:0px;
+}
+.chck{
+  font-size: 24px;
+  border-radius: 2px;
+  font-size: 20px;
+  cursor: pointer;
+  position: absolute;
+  width: 20px;;
+  right:10%;
+  top:5%;
+}
+.compl{
+  text-decoration: line-through;
+}
+.todo-row-comp{
+  border: 2px solid;
+  margin: 5px;
+  padding: 0%;
+  opacity: 0.5;
+  width: 95%;
+  height: auto;
+  min-height: 100px;
+  border-radius:10px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  position: relative;
+  height: 98%;
+  left: 2%;
+  bottom: 10px;
+  display: flex;
+  background: linear-gradient(
+    90deg,
+    rgb(158, 209, 30) 0%,
+    rgb(216, 8, 8) 100%
+  ) ;
+  background:  brightness(300%);
+  
+}
+.todo-row-comp:nth-child(4n + 1) {
+  opacity: 0.5;
+  background: linear-gradient(
+    90deg,
+    rgb(81, 6, 231) 0%,
+    rgb(155, 76, 169) 100%
+  );
+}
+
+.todo-row-comp:nth-child(4n + 2) {
+  opacity: 0.5;
+  background: linear-gradient(
+    90deg,
+    #ffd89b 0%,
+    #19547b 100%
+  );
+}
+
+.todo-row-comp:nth-child(4n + 3) {
+  opacity: 0.5;
+  background: linear-gradient(
+    90deg,
+    #43cea2  0%,
+    #185a9d 100%
+  );
+}
+
+.edit-icon{
+  font-size: 24px;
+  border-radius: 2px;
+  font-size: 20px;
+  cursor: pointer;
+  position: absolute;
+  width: 20px;;
+  right:17%;
+  top:5%;
+}
+
+.editingarea{
+border-radius: 15px;
+font-size: 24px;
+color: black;
+outline: none;
+width: 320px;
+background: transparent;
+margin: 10px;
+border: 2px solid #5d0cff;
+}
+
+.editform{
+gap: 10px;
+margin-top: 5px;
+}
+
+.savechanger{
+  padding: 16px;
+  margin: 0px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  outline: none;
+  background: linear-gradient(
+    90deg,
+    rgba(93, 12, 255, 1) 0%,
+    rgba(155, 0, 250, 1) 100%
+  );
+  color: #fff;
+  text-transform: capitalize;
+  position: absolute;
+  bottom: 10%;
+}
+.counter{
+  height: 30px;
+}

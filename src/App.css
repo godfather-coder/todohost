@@ -1,0 +1,13 @@
+body{
+  background: linear-gradient(
+      90deg,
+      rgb(76, 2, 223) 0%,
+      rgb(153, 12, 200) 100%
+    );
+}
+.headind{
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+  margin: 0px;
+}
